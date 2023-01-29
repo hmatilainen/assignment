@@ -8,13 +8,9 @@ use \Datetime;
 use \ReflectionClass;
 use PHPUnit\Framework\TestCase;
 use SocialPost\Dto\SocialPostTo;
-use SocialPost\Driver\FictionalDriverFactory;
-use Statistics\Dto\StatisticsTo;
 use Statistics\Dto\ParamsTo;
 use Statistics\Calculator\NoopCalculator;
 use SocialPost\Hydrator\FictionalPostHydrator;
-use Statistics\Calculator\CalculatorComposite;
-use App\Controller\Factory\StatisticsControllerFactory;
 
 class NoopCalculatorTest extends TestCase{
 
